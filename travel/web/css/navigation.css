@@ -1,0 +1,27 @@
+  /* 先重置一下html，消除HTML标签默认的内外边距 */
+
+  /* 对导航的内容设置一个主体为800px的宽并使其居中 */
+
+.clear{clear: both;}  /* 清除浮动 */
+
+a{text-decoration-line: none;}   /* 去掉默认a标签的下划线 */
+
+
+
+ .level>li{float: right;width: 100px;text-align: center;padding: 10px 0;font-size: 16px;}
+
+ .level>li a{color: lightgray;;}
+
+ .level>li:hover{background: rgba(3,13,28,0.96);}   /* 设置鼠标滑过后的样式 */
+
+ .two{display: none;}  /* 先使二级菜单的内容隐藏 */
+
+ .level>li:hover .two{display: block;}   /* 鼠标滑过一级菜单后的显示二级菜单 */
+
+ .level>li{transition: .4s;}  /* 颜色添加过渡时间     未处理兼容性*/
+
+ .two>li{padding: 5px ;margin: 0px;background: rgba(3,13,28,0.96); transition: .4s;cursor: pointer;}
+
+ .two>li:hover{background: blueviolet;}
+
+

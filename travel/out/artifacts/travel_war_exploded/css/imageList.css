@@ -1,0 +1,68 @@
+.landscape{
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.landscapeLi{
+    width: 1000px;
+    height: 100px;
+    float: left;
+    background-color: #dddddd;
+    padding-left:3px ;
+    padding-top: 3px;
+}
+.landscapeImg{
+    height: 80px;
+    padding: 10px;
+    float: left;
+}
+.BUTTONUl ul{
+    width: 300px;
+    height: 24px;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    list-style-type: none;
+}
+.BUTTONLi{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    list-style-type: none;
+    height: 24px;
+    background-color: rgba(86,173,125,0.6);
+    color: black;
+}
+.BUTTONLi:hover{
+    cursor: pointer;
+    background-color: rgba(100,173,93,0.6);
+}
+
+/*分页*/
+ul.pagination {
+    float: bottom;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+ul.pagination li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+ul.pagination li a:hover:not(.active) {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+

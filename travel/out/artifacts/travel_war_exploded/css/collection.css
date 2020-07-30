@@ -1,0 +1,165 @@
+body{
+    font-family: Georgia, serif;
+    background: lightgray;
+}
+
+strong{
+    font-size: xx-large;
+    padding-left: 20px;
+}
+
+li{
+    display: inline-block;
+    float: right;
+    padding: 10px;
+}
+
+li a{
+    text-decoration: none;
+}
+li a:link{color: lightgray;}
+li a:visited{color: lightgray}
+li a:hover{color: blueviolet}
+
+.nav{
+    padding: 10px 0 10px 0;
+    background: rgba(3,13,28,0.96);
+    color: lightgray;
+}
+.nav p{
+    font-size: x-large;
+    font-family: Georgia, serif;
+    font-style: italic;
+}
+
+footer{
+    text-align: center;
+    background: rgba(3,13,28,0.96);
+    color: lightgray;
+    font-style: italic;
+}
+
+h1{
+    font-size: xx-large;
+    margin: 30px 0 20px 100px ;
+    font-weight: initial;
+}
+
+#box{
+    width: 380px;
+    margin: 20px 30px 10px auto;
+    font-size: 14px;
+}
+input[type="text"]{
+    width: 200px;
+    border: 1px solid lightgray;
+    border-radius: 0.3em;
+    height: 32px;
+    float: right;
+    background-size: 25px;
+    padding:0 10px 0 20px;
+}
+#search{
+    width: 60px;
+    height: 26px;
+    float: right;
+    border: #171a21 solid 1px;
+    border-radius: 0.3em;
+    background: rgba(29,78,100,0.9);
+    text-align: center;
+    line-height: 26px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 2px;
+    color: lightgray;
+}
+#box a:hover{color: lightgray}
+
+.goods{
+    display: grid;
+    margin:0 auto;
+    width:950px;
+    grid-gap: 10px;
+    grid-template-rows: 200px 200px 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.goods div{
+    background: antiquewhite;
+}
+.goods img{
+    float: left;
+    width: 100px; height: 100px;
+    margin:40px 40px 40px 60px;
+}
+.goods .title{
+    font-size: x-large;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+.goods .artist{
+    padding-left: 10px;
+}
+.goods .description{
+    padding-top: 10px;
+}
+
+.detail{
+    background-color: rgba(29,78,100,0.9);
+    border: #171a21 solid 1px;
+    width: 100px;
+    height: 30px;
+    border-radius: 0.5em;
+    margin-top: 10px;
+}
+a input{cursor: pointer;}
+.price{
+    background-color: rgba(29,78,100,0.9);
+    border: #171a21 solid 1px;
+    width: 150px;
+    height: 30px;
+    border-radius: 0.5em;
+    margin: 10px 280px 10px 10px;
+    float: right;
+}
+.delete{
+    background: crimson;
+    border: #171a21 solid 1px;
+    width: 100px;
+    height: 25px;
+    border-radius: 0.5em;
+    margin: 40px 80px 10px 10px;
+    float: right;
+    cursor: pointer;
+}
+.page{
+    text-align: center;
+    margin: 0 10px 10px 700px;
+}
+.active {
+    color:rgba(29,78,100,0.9);
+}
+.buy{
+    background-color: rgba(29,78,100,0.9);
+    border: #171a21 solid 1px;
+    width: 150px;
+    height: 30px;
+    border-radius: 0.5em;
+    margin: 0 10px 30px 950px;
+    cursor: pointer;
+}
+
+a span{
+    font-size: 75%;
+    color: crimson;
+}
+
+#delete1,#delete2,#delete3{
+    display: none;
+    background: #56707f;
+}
+.recent-delete{
+    font-size: xx-large;
+    float: right;
+    margin:30px 70px 10px 10px;
+}

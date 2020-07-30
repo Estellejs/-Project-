@@ -1,0 +1,138 @@
+body{
+    font-family: Georgia, serif;
+}
+/* 导航栏*/
+strong{
+    font-size: xx-large;
+    padding-left: 20px;
+}
+#navLeft li{
+    display: inline-block;
+    float: left;
+    padding: 10px;
+}
+#navLeft{
+    display: inline-block;
+    padding: 10px 0 10px 0;
+    background: rgba(3,13,28,0.96);
+    color: lightgray;
+}
+
+#navLeft p{
+    font-size: x-large;
+    font-family: Georgia, serif;
+    font-style: italic;
+}
+#NotLogin{
+    color: lightgray;
+    float: right;
+    padding: 10px;
+}
+
+/* 轮播最热图片 */
+
+.gallery{
+    position: relative;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+.gallery .detail{
+    width: 40%;
+    position: absolute;
+    top:370px;
+    left:30%;
+    color: lightgray;
+}
+.detail li{
+    display: inline-block;
+    float: left;
+}
+
+.gallery li{
+    list-style: none;
+}
+.gallery ul,li{
+    padding: 0;
+}
+
+/*     */
+.layout {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background: lightgray;
+}
+.layout div{
+    display: inline-block;
+}
+.layout img{
+    width: 50%;
+}
+
+h2,h3{
+    font-weight: initial;
+}
+
+footer{
+    text-align: center;
+    background: rgba(3,13,28,0.96);
+    color: lightgray;
+    font-style: italic;
+}
+
+.square {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    padding-right: 10px;
+}
+
+.square span {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 16px;
+    cursor: pointer;
+}
+.square span.current {
+    background-color: rgba(29,78,100,0.9);
+    color: lightgray;
+}
+
+
+
+.inner{
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.inner img{
+    height: 500px;
+    width: 1263px;
+}
+.inner ul {
+    width: 1000%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.inner li {
+    float: left;
+}
+a span{
+    font-size: 75%;
+    color: crimson;
+}
+
+
+
+

@@ -1,0 +1,24 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="travel:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/travel_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="travel" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="D:/Program Files/mysql-connector-java-8.0.21/mysql-connector-java-8.0.21.jar" />
+          <element id="library" level="project" name="ezmorph-1.0.6" />
+          <element id="library" level="project" name="commons-logging-1.2" />
+          <element id="library" level="project" name="commons-lang-2.6" />
+          <element id="library" level="project" name="commons-beanutils-1.9.3" />
+          <element id="library" level="project" name="commons-collections-3.2.1" />
+          <element id="library" level="project" name="javax.annotation" />
+          <element id="library" level="project" name="json-20190722-javadoc" />
+        </element>
+        <element id="file-copy" path="D:/Program Files/mysql-connector-java-8.0.21/mysql-connector-java-8.0.21.jar" />
+      </element>
+      <element id="javaee-facet-resources" facet="travel/web/Web" />
+    </root>
+  </artifact>
+</component>

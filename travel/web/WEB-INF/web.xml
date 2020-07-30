@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <servlet>
+        <display-name>LoginServlet</display-name>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>net.servlet.loginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/loginServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <display-name>RegisterServlet</display-name>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>net.servlet.registerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/registerServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <display-name>IndexServlet</display-name>
+        <servlet-name>IndexServlet</servlet-name>
+        <servlet-class>net.servlet.indexServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>IndexServlet</servlet-name>
+        <url-pattern>/indexServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <display-name>DetailsServlet</display-name>
+        <servlet-name>DetailsServlet</servlet-name>
+        <servlet-class>net.servlet.detailsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DetailsServlet</servlet-name>
+        <url-pattern>/detailsServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <display-name>MyImageServlet</display-name>
+        <servlet-name>MyImageServlet</servlet-name>
+        <servlet-class>net.servlet.myImageServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MyImageServlet</servlet-name>
+        <url-pattern>/myImageServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <display-name>myFriendServlet</display-name>
+        <servlet-name>myFriendServlet</servlet-name>
+        <servlet-class>net.servlet.myFriendServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>myFriendServlet</servlet-name>
+        <url-pattern>/myFriendServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <display-name>myCollectionServlet</display-name>
+        <servlet-name>myCollectionServlet</servlet-name>
+        <servlet-class>net.servlet.myCollectionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>myCollectionServlet</servlet-name>
+        <url-pattern>/myCollectionServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <display-name>myFriendCollectionServlet</display-name>
+        <servlet-name>myFriendCollectionServlet</servlet-name>
+        <servlet-class>net.servlet.myFriendCollectionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>myFriendCollectionServlet</servlet-name>
+        <url-pattern>/myFriendCollectionServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <display-name>SearchServlet</display-name>
+        <servlet-name>SearchServlet</servlet-name>
+        <servlet-class>net.servlet.searchServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchServlet</servlet-name>
+        <url-pattern>/searchServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <display-name>cancelOrCollectionServlet</display-name>
+        <servlet-name>cancelOrCollectionServlet</servlet-name>
+        <servlet-class>net.servlet.cancelOrCollectionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>cancelOrCollectionServlet</servlet-name>
+        <url-pattern>/cancelOrCollectionServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <display-name>myCollectionCancelServlet</display-name>
+        <servlet-name>myCollectionCancelServlet</servlet-name>
+        <servlet-class>net.servlet.myCollectionCancelServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>myCollectionCancelServlet</servlet-name>
+        <url-pattern>/myCollectionCancelServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <display-name>myImageDeleteServlet</display-name>
+        <servlet-name>myImageDeleteServlet</servlet-name>
+        <servlet-class>net.servlet.myImageDeleteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>myImageDeleteServlet</servlet-name>
+        <url-pattern>/myImageDeleteServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <display-name>myImageChangeServlet</display-name>
+        <servlet-name>myImageChangeServlet</servlet-name>
+        <servlet-class>net.servlet.myImageChangeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>myImageChangeServlet</servlet-name>
+        <url-pattern>/myImageChangeServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <display-name>logoutServlet</display-name>
+        <servlet-name>logoutServlet</servlet-name>
+        <servlet-class>net.servlet.logoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>logoutServlet</servlet-name>
+        <url-pattern>/logoutServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <display-name>uploadServlet</display-name>
+        <servlet-name>uploadServlet</servlet-name>
+        <servlet-class>net.servlet.uploadServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>uploadServlet</servlet-name>
+        <url-pattern>/uploadServlet</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>

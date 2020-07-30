@@ -1,0 +1,50 @@
+body{
+    width: 100%;
+}
+table.gridtable {
+    font-family: verdana,arial,sans-serif;
+    font-size:11px;
+    color:#333333;
+    border-width: 1px;
+    border-color: #666666;
+    border-collapse: collapse;
+}
+table.gridtable th {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #dedede;
+}
+table.gridtable td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #ffffff;
+}
+
+.PhotoDetails{
+    width: 600px;
+    padding-right: 50px;
+    margin-right: 50px;
+}
+
+.photo{
+    margin: 20px;
+    padding-right: 100px;
+    float: left;
+}
+
+.textP{
+    width: 600px;
+    height: auto;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+}
+
+.HOVER:hover{
+    background-color:rgba(26,62,21,0.33) ;
+    cursor: pointer;
+}
